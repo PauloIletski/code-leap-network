@@ -171,10 +171,6 @@ export default function Home() {
     
     }
     fetchPosts();
-
-    const intervalId = setInterval(fetchPosts, 3000);
-
-    return () => clearInterval(intervalId);
   },[]);
    
 
