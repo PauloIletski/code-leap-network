@@ -171,7 +171,7 @@ export default function Home() {
     
     }
     fetchPosts();
-  },[]);
+  },);
    
 
   return !actualuser.id ? (
